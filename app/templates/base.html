@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <header><h1>🕶️ Meu Portfólio</h1></header>
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+  <footer>Feito com Flask e café ☕</footer>
+</body>
+</html>
